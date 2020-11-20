@@ -3,7 +3,7 @@
 function birthdayCakeCandles(candles) {
   // Write your code here
   candles = candles.sort();
-  let repeated = 0;
+  let repeated;
 
   for (let i = 0; i < candles.length; i++) {
     if (candles[i] == candles[i + 1]) {
